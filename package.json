@@ -4,6 +4,7 @@
   "description": "Source stream of tweets",
   "main": "build/index.js",
   "scripts": {
+    "start": "gulp",
     "test": "gulp test"
   },
   "keywords": [
@@ -15,5 +16,12 @@
     "Readable"
   ],
   "author": "Tadeusz Łazurski (http://lazurski.pl)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-cli": "gulpjs/gulp-cli#4.0",
+    "through2": "^2.0.0",
+    "twitter": "^1.2.5"
+  }
 }
