@@ -4,4 +4,4 @@ build/
 *.sublime-workspace
 npm-debug.log
 wiki/
-./config.cson
+config.cson
